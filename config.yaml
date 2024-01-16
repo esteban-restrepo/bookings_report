@@ -1,0 +1,54 @@
+#Winks login information, don't share this file because of the password info
+login:
+    user: 'user'
+    password: 'password'
+#Report Filters
+filters:
+    #bookings_with_charges, checkin, checkout, creation and existing lowercase between single quotation marks
+    date_type_filter: 'checkin'
+    #true or false lowercase between single quotation marks
+    include_cancelations: 'true'
+    #true or false lowercase between single quotation marks
+    break_down_taxes: 'true'
+    #room_type or room_category between single quotation marks
+    show_bookings_info: 'true'
+    #financial, gross or net between single quotation marks
+    show_guests_info: 'true'
+    #true or false lowercase between single quotation marks
+    show_agents_distribution: 'false'   
+#Hotels to export must look for the winks id in order to define this list (gear/settings/Hotel Information)
+#Currency codes {ARS:2, AUD:18, BOB: 11, BRL: 4, BZD: 22, CAD: 15, CLP: 6, COP: 9, CRC: 13, CUC: 21, EUR: 1, GBP: 19, GTQ: 17, IDR: 8, ILS: 24, JMD: 23, MAD: 26, MXN: 12, NIO: 14, PEN: 7, PLN: 20, PYG: 10, RON: 16, THB: 25, USD: 2, UYU: 5}
+#Name is useful for file names, so don't use rare characters in order to not have file problems
+hotels:
+    1433: 
+        name: 'selina_bogota_candelaria'
+        currency: 2
+    1509:
+        name: 'selina_bogota_chapinero'
+        currency: 2
+    1480:
+        name: 'selina_bogota_parque_de_la_93'
+        currency: 2
+    1431:
+        name: 'selina_cartagena'
+        currency: 2
+    1421:
+        name: 'selina_medellin'
+        currency: 2
+    1674:
+        name: 'selina_palomino'
+        currency: 2
+    1701:
+        name: 'selina_quindio' 
+        currency: 2
+    1672:
+        name: 'selina_villa_de_leyva' 
+        currency: 2
+#How many months in the future and in the past are you gonna need, 0 means current month
+data_range:
+    past_months: 0
+    future_months: 0
+#Consolidate reports in one file use 'true' or for multiple files for each hotel use 'false' lowercase between single quotation marks
+consolidated: 'false'
+#download folder path
+download_path: './downloaded_report/'

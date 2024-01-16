@@ -1,8 +1,8 @@
-#Winks Web Scraper For the Occupancy Report
+#Winks Web Scraper For the Bookings Report
 
 ## Introduction
 
-Welcome to our Python-based web scraper! This tool is designed to fetch the occupancy report from Winks. Before you dive in, it's essential to configure the scraper according to your needs. This README will guide you through the process.
+Welcome to our Python-based web scraper! This tool is designed to fetch the bookings report from Winks. Before you dive in, it's essential to configure the scraper according to your needs. This README will guide you through the process.
 
 ## Getting Started
 
@@ -21,9 +21,9 @@ Welcome to our Python-based web scraper! This tool is designed to fetch the occu
 
 Just extract the files in a local directory and make sure you have well configured the config.yaml file and execute the script
 
-- python occupancy_report_downloader.py
+- python bookings_report_downloader.py
 
-In case you have the standalone version (occupancy_report_downloader.exe) just execute it 
+In case you have the standalone version (bookings_report_downloader.exe) just execute it 
 
 ### Configuration
 
